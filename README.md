@@ -2,6 +2,35 @@
 ## Contexte
 Ce mini-projet a été réalisé lors de ma dernière année en tant qu'étudiant ingénieur spécialisé en Intelligence Artificielle et Data Science à l'[ESIEA](https://www.esiea.fr/), une école d'ingénieurs basée à Paris.
 
+## Objectif
+L'objectif de ce projet est d'étudier, d'évaluer et de comparer les performances de différentes techniques d'ensemble (AdaBoost, bagging, et forêts aléatoires) en termes de taux de reconnaissance (accuracy), de temps d'apprentissage et de temps d'inférence pour prédire la qualité d'une bière en utilisant des données quantitatives.   
+Ces données incluent des mesures scientifiques telles que l'acidité, le sucre résiduel, les chlorures, le dioxyde de soufre, la densité, le pH, les sulfates et le pourcentage d'alcool.
+
+Ci-dessous une description des colonnes du jeu de données.
+| Colonne                | Description                                                      |
+|------------------------|------------------------------------------------------------------|
+| `fixed acidity`        | Acidité fixe présente dans la bière                              |
+| `volatile acidity`     | Acidité volatile présente dans la bière                          |
+| `citric acid`          | Quantité d'acide citrique dans la bière                          |
+| `residual sugar`       | Quantité de sucre résiduel dans la bière                         |
+| `chlorides`            | Concentration de chlorures dans la bière                         |
+| `free sulfur dioxide`  | Quantité de dioxyde de soufre libre dans la bière                |
+| `total sulfur dioxide` | Quantité totale de dioxyde de soufre dans la bière               |
+| `density`              | Densité de la bière                                              |
+| `pH`                   | Niveau d'acidité ou d'alcalinité de la bière                     |
+| `sulphates`            | Concentration de sulfates dans la bière                          |
+| `alcohol`              | Taux d'alcool dans la bière                                      |
+| `quality`              | Note de qualité de la bière, sur une échelle de 1 à 10           |
+
+## Structure du projet
+```plaintext
+/mini-projet-ensemble-learning
+│
+├── beer_quality.csv                       # Jeu de données du projet
+├── study_ensemble_learning.ipynb          # Notebook de l'étude
+└── Mini-projet Ensemble Learning.pdf      # Rapport du projet
+```
+
 # Sujet
 ## Attention
 - Les parties ne sont pas indépendantes. Si vous tirez des conclusions dans la partie $p$, ne les oubliez pas quand vous commencez la partie $p+1$.
